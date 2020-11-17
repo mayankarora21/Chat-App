@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.joinBackground
+{
+  background: url('https://www.freevector.com/uploads/vector/preview/30347/Creative_Geometric_Background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.centered
+{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.box{
+  border: 2px white solid;
+  padding:5%;
+  width: 50%;
+  border-radius: 50px;
+}
+
+.whiteBorder{
+  border: 2px white solid;
+  width: 70%;
+}
+
+.whiteColor
+{
+  color: white;
+}
+
+.blackColor{
+  color: black;
+}
+
+.chatBackground
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.noMargin
+{
+  margin: 0px;
+}
+
+
+.scroll{
+  /* overflow-y: scroll; */
+  height: 400px;
+}
+
+
+.whiteBackground
+{
+  background: rgba(255, 255, 255, 1) !important;
+}
