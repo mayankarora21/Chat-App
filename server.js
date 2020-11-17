@@ -21,7 +21,8 @@ const {addUser, removeUser, getUser, getUsersInRoom} = require('./users.js');
 
 const io = socketio(server, {
     cors: {
-      origin: "http://localhost:3000",
+    //   origin: "http://localhost:3000",
+      origin: "https://chatapp-59-63.herokuapp.com/",
       methods: ["GET", "POST"]
     }
   });

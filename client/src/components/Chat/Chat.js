@@ -11,7 +11,8 @@ let socket;
 
 const Chat = (props) => {
     const {name, room} = props.match.params;
-    const ENDPOINT = 'http://localhost:5000';
+    // const ENDPOINT = 'http://localhost:5000';
+    const ENDPOINT = 'https://chatapp-59-63.herokuapp.com/';
 
     // console.log("name is", name, "room is", room);
     // console.log("Endpoint is", ENDPOINT);
